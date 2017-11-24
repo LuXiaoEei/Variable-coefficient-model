@@ -24,6 +24,6 @@ Y=a0(U)+a1(U)X1+a2(U)X2+esp
 
 取样本量100。
 
-![image](C:\Users\luxiaolei\Desktop\MCV交叉验证.png)
+![image](https://github.com/LuXiaoEei/Variable-coefficient-model/估计图.png)
 
 
