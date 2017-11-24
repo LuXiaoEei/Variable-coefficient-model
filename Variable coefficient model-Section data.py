@@ -84,6 +84,7 @@ if __name__ == '__main__':
     ams=[AMS(m=0.1,Q=4,X=X,t=u,Y=Y,h=h) for h in h_cad]
     
 #    a.iloc[a[1].argsort()[a[1].argsort().index<95],:]
+    plt.style.use('ggplot')
     plt.scatter(h_cad,ams,s=5)
     plt.ylim(0,2)
     plt.show()
@@ -106,7 +107,7 @@ if __name__ == '__main__':
 #    print(Beta_est)
 #    print(Beta_est-Beta)
     
-    plt.style.use('ggplot')
+
 #    plt.rcParams['font.sans-serif'] = ['SimHei'] #用来正常显示中文标签  
 #    plt.rcParams['axes.unicode_minus'] = False #用来正常显示负号      
     sortindex=np.copy(u.argsort())
