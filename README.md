@@ -28,6 +28,7 @@ Y=a0(U)+a1(U)X1+a2(U)X2+esp
 
 ![交叉验证](https://github.com/LuXiaoEei/Variable-coefficient-model/raw/master/MCV交叉验证.png)
 
+
 图1：MCV交叉验证，随着h的增加，AMS的值得变化(越小越好)
 
 ![image](https://github.com/LuXiaoEei/Variable-coefficient-model/raw/master/估计图.png)
